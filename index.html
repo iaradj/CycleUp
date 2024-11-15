@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juanco Sofia De Juanini Iara</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <picture>
+                    <source srcset="img/logopng.png" type="image/webp">
+                    <img src="img/logopng.png" alt="Logo" class="logo">
+                </picture>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienessomos">Quiénes Somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informacion">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#opiniones">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#descarga">Descargá la App</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+      
+      <section id="inicio" class="d-flex align-items-center justify-content-center" style="background-color: #f8f9fa;">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <picture>
+                        <source media="(min-width: 1400px)" srcset="img/1400banner1.jpg">
+                        <source media="(min-width: 1200px)" srcset="img/1200banner1.jpg">
+                        <source media="(min-width: 992px)" srcset="img/992banner1.jpg">
+                        <source media="(min-width: 768px)" srcset="img/768banner1.jpg">
+                        <source media="(min-width: 576px)" srcset="img/578banner1.jpg">
+                        <img src="img/mobile.jpg" class="d-block w-100" alt="Imagen responsive 1">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 1400px)" srcset="img/1400banner2.jpg">
+                        <source media="(min-width: 1200px)" srcset="img/1200banner2.jpg">
+                        <source media="(min-width: 992px)" srcset="img/992banner2.jpg">
+                        <source media="(min-width: 768px)" srcset="img/768banner2.jpg">
+                        <source media="(min-width: 576px)" srcset="img/578banner2.jpg">
+                        <img src="img/mobile2.jpg" class="d-block w-100" alt="Imagen responsive 2">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 1400px)" srcset="img/1400banner3.jpg">
+                        <source media="(min-width: 1200px)" srcset="img/1200banner3.jpg">
+                        <source media="(min-width: 992px)" srcset="img/992banner3.jpg">
+                        <source media="(min-width: 768px)" srcset="img/768banner3.jpg">
+                        <source media="(min-width: 576px)" srcset="img/578banner3.jpg">
+                        <img src="img/mobile3.jpg" class="d-block w-100 carousel-image" alt="Imagen responsive 3">
+                    </picture>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+
+      <section id="quienessomos" class="py-5 sectionquienessomos" style="background-image: url(img/quienesomos.jpg); ">
+        <div class="container text-light">
+          <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <h2 class="display-4">Quiénes somos?</h2>
+              <p>Somos CycleUp, una plataforma dedicada a acompañarte en cada fase de tu ciclo menstrual, ayudándote a conectar con tu bienestar y energía personal. Creemos que cada fase del ciclo es única y merece ser escuchada, por eso creamos rutinas de ejercicio que se adaptan a tus necesidades específicas. Nuestro objetivo es que cada entrenamiento se sienta alineado contigo, optimizando tu energía y apoyando tu salud en cada paso</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5" id="informacion" style="background-image: url(img/fondoop.jpg);">
+        <div class="container text-dark">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h3 class="display-5">Rutinas Personalizadas para Cada Fase</h3>
+                    <p>Cada fase de tu ciclo menstrual trae cambios únicos en tu cuerpo y energía, y nuestras rutinas están diseñadas para adaptarse a cada una de ellas. Con CycleUp, te guiamos para que aproveches al máximo cada etapa, respetando tus necesidades y optimizando tu bienestar.</p>
+                    
+                    <!-- Texto en colapso en pantallas pequeñas -->
+                    <div id="texto-fases" class="collapse d-md-block">
+                        <p><strong>Fase Menstrual:</strong> Este es el momento para cuidar de ti misma y recuperarte. En esta fase, te sugerimos actividades suaves como yoga, estiramientos y ejercicios de bajo impacto para ayudarte a relajarte y recargar energías.</p>
+                        <p><strong>Fase Folicular:</strong> A medida que tu energía comienza a aumentar, te ofrecemos entrenamientos que se enfocan en cardio moderado y fuerza ligera, preparándote para fases más activas.</p>
+                        <p><strong>Fase de Ovulación:</strong> En esta fase, tu energía está en su punto máximo. Aprovechamos esto con rutinas de alta intensidad, entrenamientos de fuerza, y cardio dinámico para ayudarte a alcanzar tus objetivos mientras tu cuerpo está en su momento más fuerte.</p>
+                        <p><strong>Fase Lútea:</strong> Conforme tu cuerpo se prepara para la siguiente fase, nuestras rutinas se vuelven gradualmente menos intensas. Esta es la oportunidad de equilibrar el trabajo de fuerza con ejercicios de movilidad y estabilidad, brindándote un entrenamiento completo y respetuoso con tu energía.</p>
+                    </div>
+    
+                    <!-- Botón que muestra/oculta el texto en pantallas pequeñas -->
+                    <button class="btn btn-rosa d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#texto-fases" aria-expanded="false" aria-controls="texto-fases">
+                        Leer más
+                    </button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/iconos.png" alt="App Screens" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="opiniones" class="py-5" style="background-image: url('img/fondoqr.jpg'); background-size: cover;">
+      <div class="container text-light">
+          <h2 class="text-center display-5 mb-4">Lo que la gente opina sobre CycleUp</h2>
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="card bg-dark text-light mb-3">
+                      <div class="card-body">
+                          <h5 class="card-title">Lucía</h5>
+                          <picture>
+                              <img src="img/Lucia.jpg" alt="lucia" class="img-small">
+                          </picture>
+                          <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                          <p class="card-text">Una aplicación increíble que me ayuda a estar en sintonía con mi ciclo. Las rutinas se sienten personalizadas y mi energía se ha mantenido constante.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card bg-dark text-light mb-3">
+                      <div class="card-body">
+                          <h5 class="card-title">Carla</h5>
+                          <picture>
+                              <img src="img/Carla.jpg" alt="carla" class="img-small">
+                          </picture> 
+                          <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                          <p class="card-text">Desde que uso CycleUp, siento que mi cuerpo y mente están alineados. Me encanta cómo adapta las rutinas a cada fase.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card bg-dark text-light mb-3">
+                      <div class="card-body">
+                          <h5 class="card-title">Rocío</h5>
+                          <picture>
+                              <img src="img/Rocio.jpg" alt="rocio" class="img-small">
+                          </picture> 
+                          <p class="card-text">⭐️⭐️⭐️⭐️⭐️</p>
+                          <p class="card-text">CycleUp ha cambiado mi enfoque hacia el ejercicio. Ahora disfruto más entrenar y me siento en sintonía con mi cuerpo y mi fase menstrual.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <section id="energia" class="py-5" style="background-image: url(img/manos.jpg);">
+      <div class="container text-light text-center">
+          <p>En el vasto cosmos, cada estrella y planeta sigue un ritmo natural, un equilibrio cósmico que define su existencia. En CycleUp, creemos que el cuerpo también sigue su propio ritmo influenciado por la fase de tu
+            ciclo menstrual. Al igual que el universo se ajusta y se adapta a sus movimientos, tu bienestar puede
+            optimizarse al alinear tus rutinas de ejercicio con los ciclos naturales de tu cuerpo.</p>
+        <form class="mt-4">
+      <div class="form-group">
+        <label for="email" class="h5">Déjanos tu correo para más información:</label>
+        <input type="email" class="form-input mt-2" id="email" placeholder="Ingresa tu correo" required>
+      </div>
+      <button type="submit" class="btn btn-rosa mt-3">Enviar</button>
+    </form>
+        </div>
+  </section>
+  
+  <section id="descarga" class="download-section" style="background-image: url(img/fondoqr.jpg);">
+    <div class="download-container">
+        <h3>Descarga la aplicación</h3>
+        <p class="highlight-text">Conoce tu cuerpo. Tu salud, en tus manos.</p>
+        <a href="#" class="btn btn-rosa btn-lg">Descargar en App Store</a>
+        <a href="#" class="btn btn-rosa btn-lg ml-2">Descargar en Google Play</a>
+        <div class="qr-container mt-3">
+            <img src="img/qr.jpg" alt="Código QR" class="img-fluid qr-code">
+            <p class="qr-text">Utiliza la cámara de tu móvil para escanear y descargar la app.
+              Disponible en dispositivos iOS y Android</p>
+        </div>
+    </div>
+
+    <!-- Sección de redes sociales abajo del contenedor -->
+    <div class="social-media mt-5 text-center">
+        <p>Síguenos en nuestras redes</p>
+        <div class="social-icons">
+            <img src="img/red1.png" alt="Instagram" class="social-icon">
+            <img src="img/red2.png" alt="Facebook" class="social-icon">
+            <img src="img/red3.png" alt="Twitter" class="social-icon">
+        </div>
+    </div>
+</section>
+
+    <footer class="text-light py-2">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center">
+            </div>
+            <p class="mt-3">&copy; Términos y condiciones . Política de privacidad
+              © 2023 - 2024 CycleUp Inc. Todos los derechos reservados.</p>
+              <p>Sofia Juanco, Iara De Juanini, Diseño Multimedial, Maquetado y Desarrollo Web, Flor Coda</p>
+        </div>
+    </footer>
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
